@@ -1,4 +1,4 @@
-![CHEESE!](screenshot.png)
+![SCREENSHOT](https://github.com/sahanirohit/Interior-Design-Studio/blob/master/screenshot.png)
 
 # Getting Started with Create React App
 
