@@ -1,4 +1,4 @@
-![CHEESE!](F:\React Templates\website\screenshot.png)
+![CHEESE!](screenshot.png)
 
 # Getting Started with Create React App
 
