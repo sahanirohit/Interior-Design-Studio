@@ -1,5 +1,4 @@
-![CHEESE!](F:\React Templates\website\screenshot.png)
-
+[![MasterHead](https://github.com/sahanirohit/Interior-Design-Studio/blob/master/screenshot.png)]
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
