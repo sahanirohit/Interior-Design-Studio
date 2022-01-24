@@ -28,8 +28,7 @@ export default function Home() {
                 <button
                   className="btn btn-primary"
                   type="button"
-                  id="button-addon2"
-                >
+                  id="button-addon2">
                   SUBSCRIBE
                 </button>
               </div>
@@ -37,7 +36,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="container bg">
+      <div className="container-fluid bg">
         <div className="home__parent">
           <div className="home__left home__child">
             <h1>3,583</h1>
@@ -51,22 +50,7 @@ export default function Home() {
             <p>John Doe, Google Inc.</p>
           </div>
         </div>
-        {/* <div className="container happy-customer"> */}
-        {/* <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-4 right">
-            <h1>3,583</h1>
-            <p>Happy Customers</p>
-          </div>
-          <div className="col-lg-8 col-md-8 col-sm-8 left">
-            <p>
-              Efficiently synthesize magnetic niches via resource <br />
-              maximizing procrastinate adaptive web-readiness.
-            </p>
-            <p>John Doe, Google Inc.</p>
-          </div>
-        </div> */}
       </div>
-      {/* </div> */}
     </>
   );
 }
