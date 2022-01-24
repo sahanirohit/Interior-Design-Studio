@@ -13,10 +13,10 @@ function App() {
     <>
       <Navbar />
       <Home />
-      <Login />
-      <Priority />
-      <HomeOwner />
-      <Footer />
+      {/* <Login /> */}
+      {/* <Priority /> */}
+      {/* <HomeOwner /> */}
+      {/* <Footer /> */}
     </>
   );
 }

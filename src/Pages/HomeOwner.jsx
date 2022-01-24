@@ -21,12 +21,12 @@ export default function HomeOwner() {
             <hr />
             <div
               id="carouselExampleControlsNoTouching"
-              class="carousel slide"
+              className="carousel slide"
               data-bs-touch="false"
               data-bs-interval="false"
             >
-              <div class="carousel-inner">
-                <div class="carousel-item active">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
                   <div className="row review__row">
                     <div className="col-lg-4 col-10">
                       <p>Datanetpress</p>
@@ -53,7 +53,7 @@ export default function HomeOwner() {
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <div className="row review__row">
                     <div className="col-lg-4 col-10">
                       <p>Datanetpress</p>
@@ -80,7 +80,7 @@ export default function HomeOwner() {
                     </div>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div className="carousel-item">
                   <div className="row review__row">
                     <div className="col-lg-4 col-10">
                       <p>Datanetpress</p>
@@ -109,28 +109,28 @@ export default function HomeOwner() {
                 </div>
               </div>
               <button
-                class="carousel-control-prev"
+                className="carousel-control-prev"
                 type="button"
                 data-bs-target="#carouselExampleControlsNoTouching"
                 data-bs-slide="prev"
               >
                 <span
-                  class="carousel-control-prev-icon next-icon-previus"
+                  className="carousel-control-prev-icon next-icon-previus"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden">Previous</span>
+                <span className="visually-hidden">Previous</span>
               </button>
               <button
-                class="carousel-control-next"
+                className="carousel-control-next"
                 type="button"
                 data-bs-target="#carouselExampleControlsNoTouching"
                 data-bs-slide="next"
               >
                 <span
-                  class="carousel-control-next-icon next-icon-next"
+                  className="carousel-control-next-icon next-icon-next"
                   aria-hidden="true"
                 ></span>
-                <span class="visually-hidden ">Next</span>
+                <span className="visually-hidden ">Next</span>
               </button>
             </div>
           </div>
