@@ -117,6 +117,11 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <div className="container-fluid copyright">
+        {/* <div className=""> */}
+        <p>Copyrights © 2022 All Rights Reserved by Rohit Sahani.</p>
+        {/* </div> */}
+      </div>
     </>
   );
 }

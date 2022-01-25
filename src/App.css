@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Sansita:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bree+Serif&family=Rubik:wght@300&family=Sansita:wght@400;700&display=swap");
 
 :root {
   --heading-font: "Bree Serif", serif;
   --ancher-font: "Acme", sans-serif;
-  --paragraph-font: "Sansita", sans-serif;
+  --paragraph-font: "Rubik", sans-serif;
 }
 * {
   margin: 0;
@@ -412,6 +412,59 @@ form input {
 .bg-color {
   background: #000 !important;
 }
+
+.copyright {
+  /* padding: 20px 0; */
+  /* margin: 25px auto; */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+  border-top: 2px solid #f5f5f5;
+}
+.copyright p {
+  padding: 25px;
+  margin: 0 !important;
+  font-family: var(--ancher-font);
+  letter-spacing: 2px;
+}
+
+.main_heading {
+  display: grid;
+  place-items: center;
+  padding: 60px 0;
+}
+.main_heading h1 {
+  font-size: 4rem;
+  font-family: var(--heading-font);
+}
+.main_heading p {
+  font-weight: 400;
+}
+.project_heading {
+  background: #f8f9fa;
+  padding: 50px 0;
+}
+.project_heading h1 {
+  font-family: var(--heading-font);
+}
+.project_heading p {
+  font-family: var(--paragraph-font);
+  font-size: 1.2rem;
+  color: #01295f;
+}
+
+/* Image Galary */
+.gallery {
+  padding: 80px 0;
+}
+.gallery img {
+  width: 400px;
+  height: 250px;
+}
+
+/* Media Querys */
 
 @media screen and (max-width: 992px) {
   .home__content h1 {

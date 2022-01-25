@@ -4,18 +4,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 import "jquery/dist/jquery.min.js";
 import Home from "./Pages/Home";
-import Login from "./Pages/Login";
-import Priority from "./Pages/Priority";
-import HomeOwner from "./Pages/HomeOwner";
+import Projects from "./Pages/Projects";
 import Footer from "./Pages/Footer";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
     <>
       <Navbar />
-      <Home />
-      <Login />
-      <Priority />
-      <HomeOwner />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/project" element={<Projects />} />
+      </Routes>
       <Footer />
     </>
   );

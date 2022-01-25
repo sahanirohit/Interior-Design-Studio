@@ -1,8 +1,12 @@
 import React from "react";
+import Login from "./Login";
+import Priority from "./Priority";
+import HomeOwner from "./HomeOwner";
 
 export default function Home() {
   return (
     <>
+      {/* Home Section */}
       <div className="container-fluid home__bg">
         <div className="home__content">
           <div className="row">
@@ -53,6 +57,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Login />
+      <Priority />
+      <HomeOwner />
     </>
   );
 }
