@@ -103,16 +103,15 @@ export default function Priority() {
                   </div>
                 </div>
               </div>
-              {/* <div
+              <div
                 className="tab-pane fade"
                 id="profile"
                 role="tabpanel"
                 aria-labelledby="profile-tab">
-                <div className="container tab-menu-content">
-                  <div className="solution__container">
-                    <div className="solution__content__left"></div>
-                    <div className="solution__content__right shadow">
-                      <h3>We help people to create new Website.</h3>
+                <div className="solution__priority__parent">
+                  <div className="solution__priority__left shadow">
+                    <div className="solution__left__content">
+                      <h4>We help people to create new Website.</h4>
                       <p>
                         Uniquely productize cross-unit action items with
                         multifunctional imperatives. Quickly communicate
@@ -121,10 +120,11 @@ export default function Priority() {
                         vis-a-vis backend e-services.
                       </p>
                       <a href="" className="btn btn-primary">
-                        READ CANVAS'S STORY
+                        Read More
                       </a>
                     </div>
                   </div>
+                  <div className="solution__priority__right"></div>
                 </div>
               </div>
               <div
@@ -132,10 +132,11 @@ export default function Priority() {
                 id="contact"
                 role="tabpanel"
                 aria-labelledby="contact-tab">
-                <div className="container tab-menu-content">
-                  <div className="content__section">
-                    <div className="water__content__left shadow">
-                      <h3>We help people to create new Website.</h3>
+                <div className="water__priority__parent">
+                  <div className="water__priority__left"></div>
+                  <div className="water__priority__right shadow">
+                    <div className="water__right__content">
+                      <h4>We help people to create new Website.</h4>
                       <p>
                         Uniquely productize cross-unit action items with
                         multifunctional imperatives. Quickly communicate
@@ -144,10 +145,9 @@ export default function Priority() {
                         vis-a-vis backend e-services.
                       </p>
                       <a href="" className="btn btn-primary">
-                        READ CANVAS'S STORY
+                        Read More
                       </a>
                     </div>
-                    <div className="water__content__right"></div>
                   </div>
                 </div>
               </div>
@@ -156,11 +156,10 @@ export default function Priority() {
                 id="map"
                 role="tabpanel"
                 aria-labelledby="map-tab">
-                <div className="container tab-menu-content">
-                  <div className="location__container">
-                    <div className="location__content__left"></div>
-                    <div className="location__content__right shadow">
-                      <h3>We help people to create new Website.</h3>
+                <div className="location__priority__parent">
+                  <div className="location__priority__left shadow">
+                    <div className="location__left__content">
+                      <h4>We help people to create new Website.</h4>
                       <p>
                         Uniquely productize cross-unit action items with
                         multifunctional imperatives. Quickly communicate
@@ -169,12 +168,13 @@ export default function Priority() {
                         vis-a-vis backend e-services.
                       </p>
                       <a href="" className="btn btn-primary">
-                        READ CANVAS'S STORY
+                        Read More
                       </a>
                     </div>
                   </div>
+                  <div className="location__priority__right"></div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

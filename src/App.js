@@ -15,8 +15,8 @@ function App() {
       <Home />
       <Login />
       <Priority />
-      {/* <HomeOwner /> */}
-      {/* <Footer /> */}
+      <HomeOwner />
+      <Footer />
     </>
   );
 }

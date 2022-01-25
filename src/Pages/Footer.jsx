@@ -7,10 +7,15 @@ export default function Footer() {
       <div className="container-fluid footer__bg">
         <div className="container">
           <div className="row footer__row">
-            <div className="col-lg-3 col-md-3 col-sm-3 mx-auto footer__col">
-              <a className="navbar-brand" href="#">
-                <img src="../images/logo.png" width="120px" alt="logo" />
-              </a>
+            <div className="col-md-3 col-6 mx-auto footer__col">
+              {/* <a className="" href="#"> */}
+              <img
+                src="../images/logo.png"
+                className="footer_logo"
+                width="120px"
+                alt="logo"
+              />
+              {/* </a> */}
               <p>@2022</p>
               <hr className="footer_hr" />
               <ul className="navbar-nav">
@@ -31,7 +36,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6 mx-auto footer__col">
+            <div className="col-md-3 col-6 mx-auto footer__col">
               <p>Blogroll</p>
               <ul className="navbar-nav">
                 <li className="nav-items">
@@ -61,7 +66,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6 mx-auto footer__col">
+            <div className="col-md-3 col-6 mx-auto footer__col">
               <p>Links</p>
               <ul className="navbar-nav">
                 <li className="nav-item">
@@ -91,7 +96,7 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-3 col-sm-6 col-md-6 mx-auto footer__col">
+            <div className="col-md-3 col-6 mx-auto footer__col">
               <p>Twitter Feed</p>
               <div className="footer__post">
                 <span>

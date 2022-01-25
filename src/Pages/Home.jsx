@@ -47,7 +47,9 @@ export default function Home() {
               Efficiently synthesize magnetic niches via resource <br />
               maximizing procrastinate adaptive web-readiness.
             </p>
-            <p>John Doe, Google Inc.</p>
+            <a href="" className="link text-primary">
+              John Doe, Google Inc.
+            </a>
           </div>
         </div>
       </div>
